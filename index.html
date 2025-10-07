@@ -1,7 +1,409 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de María Alejandra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <nav class="navbar has-background-primary is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item has-text-white is-size-5" href="#">
+                <strong>Portafolio</strong>
+            </a>
+        </div>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item has-text-white" href="#about">Acerca de</a>
+                <a class="navbar-item has-text-white" href="#skills">Habilidades</a>
+                <a class="navbar-item has-text-white" href="#projects">Proyectos</a>
+                <a class="navbar-item has-text-white" href="#contact">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero is-medium" id="hero">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title has-text-white is-size-1 animated fadeInDown">María Alejandra Reyes González</h1>
+                <h2 class="subtitle has-text-white is-size-4 animated fadeInUp">Desarrolladora Full Stack</h2>
+                <p class="has-text-white is-size-5 animated fadeIn">Java | Spring Boot | Angular | NiFi | Vue | Bases de
+                    Datos</p>
+                <a href="#projects" class="button is-primary is-outlined is-rounded animated fadeInUp"
+                    style="margin-top: 20px;">Explora mis proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="title has-text-centered has-text-primary">Acerca de mí</h2>
+            <div class="content has-text-centered">
+                <p class="is-size-5">Soy una desarrolladora Full Stack de Ibagué, Colombia, graduada de la Universidad
+                    de Ibagué. Me apasiona crear soluciones web innovadoras con tecnologías como Java, Spring Boot y
+                    Angular. Disfruto enfrentar desafíos técnicos y estoy siempre aprendiendo.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="title has-text-centered has-text-primary">Habilidades</h2>
+
+            <h3 class="subtitle has-text-centered has-text-primary" style="margin-top: 20px;">Lenguajes</h3>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card">
+                        <span class="icon is-large"><i class="fas fa-coffee" style="color: #f89820;"></i></span>
+                        <p class="title is-6">Java</p>
+                        <progress class="progress is-info" value="70" max="100">70%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card"
+                        style="animation-delay: 0.2s">
+                        <span class="icon is-large"><i class="fab fa-python" style="color: #3776ab;"></i></span>
+                        <p class="title is-6">Python</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.4s">
+                        <span class="icon is-large"><i class="fab fa-php" style="color: #777bb4;"></i></span>
+                        <p class="title is-6">PHP</p>
+                        <progress class="progress is-info" value="50" max="100">50%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fas fa-code" style="color: #3178c6;"></i></span>
+                        <p class="title is-6">TypeScript</p>
+                        <progress class="progress is-info" value="65" max="100">65%</progress>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subtitle has-text-centered has-text-primary" style="margin-top: 40px;">Frameworks/Plataformas
+            </h3>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card">
+                        <span class="icon is-large"><i class="fas fa-leaf" style="color: #6db33f;"></i></span>
+                        <p class="title is-6">Spring Boot</p>
+                        <progress class="progress is-info" value="80" max="100">80%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card"
+                        style="animation-delay: 0.2s">
+                        <span class="icon is-large"><i class="fab fa-angular" style="color: #dd0031;"></i></span>
+                        <p class="title is-6">Angular</p>
+                        <progress class="progress is-info" value="60" max="100">60%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.4s">
+                        <span class="icon is-large"><i class="fab fa-vuejs" style="color: #42b883;"></i></span>
+                        <p class="title is-6">Vue 2</p>
+                        <progress class="progress is-info" value="80" max="100">80%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fab fa-vuejs" style="color: #41b883;"></i></span>
+                        <p class="title is-6">Vue 3</p>
+                        <progress class="progress is-info" value="50" max="100">50%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fab fa-react" style="color: #61dafb;"></i></span>
+                        <p class="title is-6">React</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fas fa-mobile-alt" style="color: #3880ff;"></i></span>
+                        <p class="title is-6">Ionic</p>
+                        <progress class="progress is-info" value="55" max="100">55%</progress>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subtitle has-text-centered has-text-primary" style="margin-top: 40px;">Bases de Datos</h3>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card">
+                        <span class="icon is-large"><i class="fas fa-database" style="color: #00758f;"></i></span>
+                        <p class="title is-6">MySQL</p>
+                        <progress class="progress is-info" value="85" max="100">85%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card"
+                        style="animation-delay: 0.2s">
+                        <span class="icon is-large"><i class="fas fa-database" style="color: #336791;"></i></span>
+                        <p class="title is-6">PostgreSQL</p>
+                        <progress class="progress is-info" value="85" max="100">85%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.4s">
+                        <span class="icon is-large"><i class="fas fa-database" style="color: #ff2a00;"></i></span>
+                        <p class="title is-6">Oracle 19</p>
+                        <progress class="progress is-info" value="85" max="100">85%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fas fa-fire" style="color: #ffca28;"></i></span>
+                        <p class="title is-6">Firebase</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fa-brands fa-envira" style="color: #2cd426;"></i></span>
+                        <p class="title is-6">Mongo</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subtitle has-text-centered has-text-primary" style="margin-top: 40px;">Herramientas</h3>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card">
+                        <span class="icon is-large"><i class="fas fa-cogs" style="color: #0052cc;"></i></span>
+                        <p class="title is-6">NiFi</p>
+                        <progress class="progress is-info" value="85" max="100">85%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInLeft skill-card"
+                        style="animation-delay: 0.2s">
+                        <span class="icon is-large"><i class="fas fa-cog" style="color: #f4a261;"></i></span>
+                        <p class="title is-6">Process Maker (BPMN)</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.4s">
+                        <span class="icon is-large"><i class="fas fa-paper-plane" style="color: #e76f51;"></i></span>
+                        <p class="title is-6">Postman</p>
+                        <progress class="progress is-info" value="90" max="100">90%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fas fa-lock" style="color: #2a9d8f;"></i></span>
+                        <p class="title is-6">Keycloak</p>
+                        <progress class="progress is-info" value="70" max="100">70%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fas fa-chart-bar" style="color: #264653;"></i></span>
+                        <p class="title is-6">SonarQube | SonarLint</p>
+                        <progress class="progress is-info" value="80" max="100">80%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fab fa-git-alt" style="color: #f05033;"></i></span>
+                        <p class="title is-6">Git/GitHub</p>
+                        <progress class="progress is-info" value="90" max="100">90%</progress>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="box has-background-light has-text-centered animated fadeInRight skill-card"
+                        style="animation-delay: 0.6s">
+                        <span class="icon is-large"><i class="fab fa-docker" style="color: #0db7ed;"></i></span>
+                        <p class="title is-6">Docker</p>
+                        <progress class="progress is-info" value="40" max="100">40%</progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="title has-text-centered has-text-primary">Proyectos</h2>
+
+            <h3 class="subtitle has-text-centered has-text-primary">Proyectos Frontend</h3>
+            <div class="columns is-multiline is-centered">
+                <!-- Proyectos frontend existentes -->
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">FeelMe SexShop</p>
+                            <p class="subtitle">Angular</p>
+                            <p>Una app responsiva para interfaz de SexShop. <a
+                                    href="https://github.com/AlejaReyes0627/FeelMeSexShop" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp" style="animation-delay: 0.2s">
+                        <div class="card-content">
+                            <p class="title is-5">REDA Ingeniería de Software v1</p>
+                            <p class="subtitle">HTML | CSS | JavaScript</p>
+                            <p>Versión 1 de un recurso educativo digital abierto. <a
+                                    href="https://github.com/AlejaReyes0627/Trabajo-De-Grado" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp" style="animation-delay: 0.4s">
+                        <div class="card-content">
+                            <p class="title is-5">REDA Ingeniería de Software v2</p>
+                            <p class="subtitle">Vue 3 | Naive UI | TypeScript</p>
+                            <p>Versión 2 de un recurso educativo digital abierto. <a
+                                    href="https://github.com/AlejaReyes0627/tdg-v2" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Restaurante 21 APP</p>
+                            <p class="subtitle">React Ionic | TypeScript | Firebase</p>
+                            <p>Proyecto para administración de Restaurante con backend integrado. <a
+                                    href="https://github.com/AlejaReyes0627/restauranteApp21" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Registraduría MINTIC</p>
+                            <p class="subtitle">Angular</p>
+                            <p>Proyecto Frontend para Registraduría. <a
+                                    href="https://github.com/AlejaReyes0627/registraduriaMintic-Angular" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Ventas</p>
+                            <p class="subtitle">React js</p>
+                            <p>Proyecto Frontend para la administración de Ventas. <a
+                                    href="https://github.com/AlejaReyes0627/ventas" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Concesionario de Autos</p>
+                            <p class="subtitle">Java Maven | Servlets | JSP</p>
+                            <p>Proyecto Frontend/Backend para un concesionario de autos. <a
+                                    href="https://github.com/AlejaReyes0627/Proyecto-Concesionario-1-MAVEN-JSP-Y-SERVLETS"
+                                    target="_blank" class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="subtitle has-text-centered has-text-primary" style="margin-top: 40px;">Proyectos Backend</h3>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Registraduría | TNTScrum</p>
+                            <p class="subtitle">Python | Mongo</p>
+                            <p>Proyecto Backend para Registraduría. <a
+                                    href="https://github.com/AlejaReyes0627/registraduria-TNTScrum" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Registraduría API Gateway | TNTScrum</p>
+                            <p class="subtitle">Python | Flask</p>
+                            <p>Proyecto Backend API Gateway para Registraduría. <a
+                                    href="https://github.com/AlejaReyes0627/Registraduria-TNT-Scrum-APIGATEWAY"
+                                    target="_blank" class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Prueba detección de bordes</p>
+                            <p class="subtitle">Python</p>
+                            <p>Prueba SOBEL, LAPLACIAN, CANNY para la detección de bordes en Python. <a
+                                    href="https://github.com/AlejaReyes0627/Prueba-Deteccion-Bordes-Python"
+                                    target="_blank" class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Proyecto de Ventas Backend</p>
+                            <p class="subtitle">Java | PostgreSQL</p>
+                            <p>Proyecto para el manejo de ventas con base de datos. <a
+                                    href="https://github.com/AlejaReyes0627/ventasBack" target="_blank"
+                                    class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-third">
+                    <div class="card animated fadeInUp">
+                        <div class="card-content">
+                            <p class="title is-5">Concesionario de Autos</p>
+                            <p class="subtitle">Java Swing</p>
+                            <p>Proyecto con interfaz java swing para concesionario de autos. <a
+                                    href="https://github.com/AlejaReyes0627/Proyecto-Concesionario--Solo-Java-en-eclipse"
+                                    target="_blank" class="button is-small is-primary is-outlined">Ver en GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-background-primary" id="contact">
+        <div class="content has-text-centered">
+            <p class="has-text-white is-size-6">Contacto: aleja.reye0627@gmail.com | <a
+                    href="https://www.linkedin.com/in/maria-alejandra-reyes-gonzalez/"
+                    class="has-text-white is-underlined">LinkedIn</a></p>
+            <p class="has-text-white is-size-7">© 2025 María Alejandra Reyes González</p>
+        </div>
+    </footer>
 </body>
+
 </html>
